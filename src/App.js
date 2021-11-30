@@ -6,9 +6,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello from React</h1>
         <Weather city="New York" />
+        <h1>Weather App</h1>
       </header>
     </div>
   );
 }
+export default App;
