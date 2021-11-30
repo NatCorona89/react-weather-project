@@ -37,7 +37,7 @@ export default function WeatherSearch() {
 
   if (loaded) {
     return (
-      <div>
+      <div class="card">
         {form}
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
