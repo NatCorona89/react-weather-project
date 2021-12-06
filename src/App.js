@@ -1,6 +1,5 @@
 import "./App.css";
 import Weather from "./Weather";
-import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -9,7 +8,17 @@ export default function App() {
       <header className="App-header">
         <Weather city="New York" />
         <h3>Weather App</h3>
-        <Footer />
+        <footer>
+          <a
+            href="https://github.com/NatCorona89/react-weather-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Open Source Code on GitHub
+          </a>
+          <div>by Natalie Gilliam ☁️</div>
+        </footer>
       </header>
     </div>
   );
