@@ -4,8 +4,7 @@ import Weather from "./Weather";
 export default function App() {
   return (
     <div className="App">
-      Weather App
-      <header className="App-header">
+      <div className="container">
         <Weather city="New York" />
         <h3>Weather App</h3>
         <footer>
@@ -19,7 +18,7 @@ export default function App() {
           </a>
           <div>by Natalie Gilliam ☁️</div>
         </footer>
-      </header>
+      </div>
     </div>
   );
 }
