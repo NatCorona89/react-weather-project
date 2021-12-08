@@ -18,7 +18,7 @@ body {
 }
 
 .Weather h1 {
-  font-size: 32px;
+  font-size: 40px;
   color: whitesmoke;
   margin: 20px 0 0 0;
   line-height: 30px;
@@ -31,26 +31,51 @@ body {
 }
 
 .Weather li {
-  color: rgb(5, 81, 104);
-  font-size: 20px;
+  color: whitesmoke;
+  font-size: 28px;
   font-weight: 400;
   height: 19px;
-  line-height: 1;
+  line-height: 2;
   list-style: none;
+}
+
+.Weather ul .humidity {
+  position: relative;
+  top: -60px;
+  font-size: 25px;
+}
+
+.Weather ul .wind {
+  position: relative;
+  top: -60px;
+  font-size: 25px;
+}
+
+.Weather canvas {
+  margin-left: -30px;
+}
+
+.Weather .text-capitalize {
+  color: whitesmoke;
+  font-size: 25px;
+  top: 10px;
+  position: relative;
+  line-height: 2;
 }
 
 .Weather .temperature {
   font-weight: bold;
   color: whitesmoke;
-  font-size: 40px;
+  font-size: 50px;
   position: relative;
-  top: -8px;
-  margin-left: 10px;
+  top: -10px;
+  margin-left: -20px;
 }
 
 .Weather .unit {
   position: relative;
-  top: -22px;
-  font-size: 20px;
+  top: -30px;
+  font-size: 18px;
   color: whitesmoke;
+  margin-left: 5px;
 }
