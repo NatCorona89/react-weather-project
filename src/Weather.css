@@ -53,6 +53,7 @@ body {
 
 .Weather canvas {
   margin-left: -30px;
+  margin-top: 20px;
 }
 
 .Weather .text-capitalize {

@@ -10,3 +10,7 @@
 .WeatherForecast-day {
   text-align: center;
 }
+
+.WeatherForecast-icons {
+  margin-left: 30px;
+}
