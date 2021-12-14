@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./Footer.css";
 import Weather from "./Weather";
 
 export default function App() {
@@ -8,7 +9,9 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York" />
         <footer>
-          This project was coded by Natalie Corona, is open-sourced on{" "}
+          <span className="open-source">
+            This project was coded by Natalie Corona, is open-sourced on{" "}
+          </span>
           <a
             href="https://github.com/NatCorona89/react-weather-project"
             target="_blank"
@@ -16,7 +19,7 @@ export default function App() {
           >
             GitHub
           </a>{" "}
-          and hosted on{" "}
+          <span className="open-source">and hosted on </span>
           <a
             href="https://wizardly-thompson-80bb2a.netlify.app/"
             target="blank"

@@ -5,10 +5,16 @@
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
+  color: whitesmoke;
+}
+
+.WeatherForecast-temperature-max {
+  color: whitesmoke;
 }
 
 .WeatherForecast-day {
   text-align: center;
+  color: whitesmoke;
 }
 
 .WeatherForecast-icons {
